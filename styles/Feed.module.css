@@ -1,0 +1,11 @@
+.grid {
+  overflow-x: scroll;
+  width: 40%;
+  display: flex;
+  margin-left: 100px;
+  padding-left: 30px;
+}
+
+.grid::-webkit-scrollbar {
+  display: none;
+}
