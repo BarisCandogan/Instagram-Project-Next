@@ -11,11 +11,13 @@ function Feed() {
         <div className={styles.stories}>
           <Stories />
         </div>
+
         <div className={styles.profile}>
           <MiniProfile />
           <Suggestions />
         </div>
       </div>
+
       <div className={poststyle.main}>
         <div className={poststyle.posts}>
           <Posts />
