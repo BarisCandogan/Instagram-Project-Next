@@ -1,11 +1,26 @@
-.grid {
+.stories {
   overflow-x: scroll;
-  width: 40%;
+  width: 600px;
   display: flex;
-  margin-left: 100px;
+  margin-top: 30px;
+  margin-left: 220px;
   padding-left: 30px;
+  border-top: 2px solid rgb(238, 238, 238);
+  border-bottom: 2px solid rgb(238, 238, 238);
+  background-color: white;
 }
 
-.grid::-webkit-scrollbar {
-  display: none;
+@media only screen and (max-width: 1000px) {
+  .stories {
+    margin: 30px auto auto auto;
+    width: 80%;
+  }
+}
+
+.main {
+  display: flex;
+}
+
+.profile {
+  display: flex;
 }
