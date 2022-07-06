@@ -1,8 +1,9 @@
 .stories {
   overflow-x: scroll;
   width: 600px;
+  height: 100px;
   display: flex;
-  margin-top: 30px;
+  margin-top: 50px;
   margin-left: 220px;
   padding-left: 30px;
   border-top: 2px solid rgb(238, 238, 238);
@@ -13,7 +14,12 @@
 @media only screen and (max-width: 1000px) {
   .stories {
     margin: 30px auto auto auto;
-    width: 80%;
+    width: 60%;
+  }
+}
+@media only screen and (max-width: 1200px) {
+  .profile {
+    display: none;
   }
 }
 
@@ -22,5 +28,14 @@
 }
 
 .profile {
+  margin-left: 45px;
+  margin-top: 55px;
+}
+
+.flex {
   display: flex;
+}
+
+.suggestions {
+  position: absolute;
 }
