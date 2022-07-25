@@ -5,10 +5,27 @@
   display: flex;
   margin-top: 50px;
   margin-left: 220px;
-  padding-left: 30px;
+  padding-left: 5px;
   border-top: 2px solid rgb(238, 238, 238);
   border-bottom: 2px solid rgb(238, 238, 238);
   background-color: white;
+}
+.stories::-webkit-scrollbar {
+  -webkit-appearance: none;
+}
+
+.stories::-webkit-scrollbar:vertical {
+  width: 11px;
+}
+
+.stories::-webkit-scrollbar:horizontal {
+  height: 11px;
+}
+
+.stories::-webkit-scrollbar-thumb {
+  border-radius: 8px;
+  border: 2px solid white;
+  background-color: rgba(0, 0, 0, 0.5);
 }
 
 @media only screen and (max-width: 1000px) {
@@ -38,4 +55,36 @@
 
 .suggestions {
   position: absolute;
+}
+
+.container {
+  margin-left: 190px;
+  margin-right: 190px;
+}
+
+.userImg {
+  display: flex;
+  position: relative;
+  margin: 10px 0px 0px;
+  width: 45px;
+  height: 45px;
+  border-radius: 100%;
+  border: 2px solid #fe0969;
+}
+
+.userTitle {
+  width: 40px;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  margin-left: 10px;
+  position: relative;
+  font-weight: 600;
+  font-size: 10px;
+  display: flex;
+  display: block;
+}
+.userDiv {
+  display: flex;
+  flex-direction: column;
 }
