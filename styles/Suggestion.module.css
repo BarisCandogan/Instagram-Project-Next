@@ -1,0 +1,9 @@
+.img {
+  display: flex;
+  margin: 10px 0px 0px;
+  width: 45px;
+  height: 45px;
+  border-radius: 100%;
+  overflow: hidden;
+  border: 2px solid #fe0969;
+}
