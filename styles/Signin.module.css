@@ -1,0 +1,20 @@
+.img {
+  height: 80px;
+}
+
+.container {
+  display: flex;
+  min-height: 80vh;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.button {
+  background-color: #4c89e7;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  padding: 10px;
+  margin-top: 100px;
+}
